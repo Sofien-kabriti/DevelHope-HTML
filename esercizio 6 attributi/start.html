@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Lezione HTML</title>
+</head>
+
+<body>
+<form >
+<div>
+    <input type="submit" value="Submit">
+</div>
+<div>
+    <label for="vol">Abbassa o alza il volume:</label>
+    <input type="range" value="0" max="100" oninput="num.value = this.value" step="2" autofocus>
+    <output id="num">0</output>
+</div>
+<div>
+    <label for="alive">Truceklan
+        <input type="checkbox" id="alive" value="alive" checked>
+    </label>
+</div>
+<div>
+    <label for="date">
+        <span>Data di nascita:</span>
+    </label>
+    <input type="date" id="date" name="date" min="1950-01-01" max="2000-01-01">
+</div>
+
+</body>
+
+</html>
